@@ -4,11 +4,11 @@ CVE-searcher is a vulnerability parser that looks for CVE's from different sourc
 
 ## Usage
 
-Start the program from the command line with `python CVE-searcher.py`. Once the program has been started it will prompt for your Shodan.io API key. Once provided it will prompt to install Searchsploit, which is optional. After these operations a menu will be displayed the options for which are as follows.
+Start the program from the command line with `python cvesearcher.py`. Once the program has been started it will prompt for your Shodan.io API key. Once provided it will prompt to install Searchsploit, which is optional. After these operations a menu will be displayed the options for which are as follows.
 
 ```
-1. Query Shodan				4. Logging	
-2. Query CVE Mitre			5. Quit
+1. Query Shodan				4. Quit
+2. Query CVE Mitre			
 3. Invoke Searchsploit				
 ```
 Select a number to select a data source to use when searching for a particular vulnerability. The 'logging' option will save results of your search queries in the current working directory as an application log from CVE-searcher.
